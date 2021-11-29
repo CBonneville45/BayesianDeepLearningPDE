@@ -17,7 +17,7 @@ The code requires:
 ## Code Summary
 
 The code contains the following files:
-* **TrainingBNN/TrainingBNN.py** and **TrainingDNN/TrainingDNN.py** which are wrapping class containing neural networks training framework
+* **TrainingBNN/TrainingBNN.py** and **TrainingDNN/TrainingDNN.py** which are wrapping class containing neural networks training frameworks
 * **GenerateDerivatives/GenerateDerivatives.py** which is are class that performs fast auto-differentiation using Torch. It takes trained (Bayesian) neural networks and space-time coordinates and computes dataset of successive derivatives
 * **BurgersEquation**, **KdVEquation** and **HeatEquation**, which contains the three examples introduced in the paper. Each folder contains the original PDE solution data, the generated sensor measurement data, the codes for calling **TrainingBNN.py**, **TrainingDNN.py** and **GenerateDerivatives.py**, the derivative data, and the codes for sequential threshold regressions. The Bayesian neural networks samples obtained through HMC sampling can be downloaded at https://drive.google.com/drive/folders/19FnCYVlAMj3X9FnwnJlD0J_UF8MGi-Lt?usp=sharing
 
